@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class DiagonalDiff {
   
   public static void main(String[] args) {
-    
   Scanner sc = new Scanner(System.in);
   System.out.println("Tell me how large you want the square matrix to be!");
   int yourNum = sc.nextInt();
@@ -14,7 +13,7 @@ public class DiagonalDiff {
       for(int b = 0;b < matrix.length; b++){
         System.out.print( matrix[a][b]); //printing the values of the array
       }
-      System.out.println(); //after going though a full row, add a carrage return to make the array print nicely
+      System.out.println(); //after going though a full row, add a carriage return to make the array print nicely
     }    
     System.out.print("Diagnal difference is " + diagonalDiff(matrix)); 
   }
@@ -40,7 +39,7 @@ public class DiagonalDiff {
       sqArr[a][b] = rd.nextInt(9) + 1; //will be a number from 1 to 9
       }
     }
-    return sqArr;// returns the two-dimensional  array
+    return sqArr;// returns the two-dimensional array for processing
   } 
                      
 }
